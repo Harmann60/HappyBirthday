@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         if (months < 0) { months += 12; years--; }
 
-        countdownElement.innerHTML = `${years}y ${months}m ${days}d <br> ${hours}h ${minutes}m ${seconds}s`;
+        countdownElement.innerHTML = `${years}years ${months}months ${days}days <br> ${hours}h ${minutes}m ${seconds}s`;
     }
     setInterval(updateAge, 1000);
     updateAge();
