@@ -65,4 +65,10 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
-
+/* Responsive change for Hall of Fame buttons on mobile */
+@media (max-width: 768px) {
+    #scroll-left-btn, #scroll-right-btn {
+        /* Hide buttons on small screens where touch scrolling is natural */
+        display: none;
+    }
+}
